@@ -10,6 +10,7 @@ I create this repository to keep track of all project  and coding activity durin
 * Higher or Lower guessing game 
 * Coffee Maker
 * Coffee Maker improve with OOP
+* Quix Brain Game
 
 
 More projectd and games will be added as I am progressing in this jouney
