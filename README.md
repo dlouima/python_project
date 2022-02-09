@@ -12,6 +12,7 @@ I create this repository to keep track of all project  and coding activity durin
 * Coffee Maker improve with OOP
 * Quix Brain Game
 * Search_4_vowels_webAPP
+* Hirst Painting version using python
 
 
 More projectd and games will be added as I am progressing in this jouney
