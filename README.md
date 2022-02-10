@@ -10,7 +10,7 @@ I create this repository to keep track of all project  and coding activity durin
 * Higher or Lower guessing game 
 * Coffee Maker
 * Coffee Maker improve with OOP
-* Quix Brain Game
+* Quiz Brain Game
 * Search_4_vowels_webAPP
 * Hirst Painting version using python
 * Spirograph using python 
