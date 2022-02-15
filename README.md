@@ -1,7 +1,7 @@
-# My Python learning journey 
+# Python Learning Journey 
 
 
-I create this repository to keep track of all projects  and coding activities during my python learning journey
+I create this repository to keep track of all projects and coding activities during my python learning journey
 
 ### Here is a list of some of the projects
 * FizzBuzz
