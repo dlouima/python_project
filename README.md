@@ -1,12 +1,13 @@
-# My Python learning journey 
+# Python Learning Journey 
 
 
-I create this repository to keep track of all project  and coding activity durint my python learning journey
+I create this repository to keep track of all projects and coding activities during my python learning journey
 
-### Here a list of some of the projects
+### Here is a list of some of the projects
 * FizzBuzz
 * Number guessing game
 * Leap Year Calculation
+* Guessing game 
 * Higher or Lower guessing game 
 * Coffee Maker
 * Coffee Maker improve with OOP
@@ -15,6 +16,7 @@ I create this repository to keep track of all project  and coding activity durin
 * Hirst Painting version using python
 * Spirograph using python 
 * Turtle race game
+* Classic Snake game
 
 
-More projectd and games will be added as I am progressing in this jouney
+More projects and games will be added as I am progressing in this journey
