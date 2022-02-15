@@ -15,6 +15,7 @@ I create this repository to keep track of all project  and coding activity durin
 * Hirst Painting version using python
 * Spirograph using python 
 * Turtle race game
+* Classic Snake game
 
 
-More projectd and games will be added as I am progressing in this jouney
+More projects and games will be added as I am progressing in this jouney
