@@ -7,6 +7,7 @@ I create this repository to keep track of all projects  and coding activities du
 * FizzBuzz
 * Number guessing game
 * Leap Year Calculation
+* Guessing game 
 * Higher or Lower guessing game 
 * Coffee Maker
 * Coffee Maker improve with OOP
