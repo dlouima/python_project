@@ -17,6 +17,7 @@ I create this repository to keep track of all projects and coding activities dur
 * Spirograph using python 
 * Turtle race game
 * Classic Snake game
+* Python simple API project
 
 
 More projects and games will be added as I am progressing in this journey
