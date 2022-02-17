@@ -19,5 +19,6 @@ I create this repository to keep track of all projects and coding activities dur
 - Classic Snake game
 - Python simple API project
 - The Pong Game
+- Turtle Street Crossing Game
 
 More projects and games will be added as I am progressing in this journey
