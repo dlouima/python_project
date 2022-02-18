@@ -20,5 +20,6 @@ I create this repository to keep track of all projects and coding activities dur
 - Python simple API project
 - The Pong Game
 - Turtle Street Crossing Game
+- Mail Merger Project
 
 More projects and games will be added as I am progressing in this journey
