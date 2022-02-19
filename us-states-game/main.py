@@ -8,7 +8,7 @@ image = 'blank_states_img.gif'
 screen.addshape(image)
 
 turtle.shape(image)
-remaining_state = []
+
 
 # import the dataset as a csv
 
@@ -19,11 +19,11 @@ state_list = data.state.to_list()
 while len(correct_guess_list) < 50:
     answer = screen.textinput(title=f'{len(correct_guess_list)}/ 50 Guess the Sate',
                               prompt="what's another state's name").title()
+
     # detect when user want to exit the game  and return a list of all the messing states
     if answer == 'Exit':
-        for guess in data.state:
-            if guess not in correct_guess_list:
-                remaining_state.append(guess)
+        remaining_state = [
+            state for state in data.state if state not in correct_guess_list]
         state_learn = pandas.DataFrame(remaining_state)
         state_learn.to_csv('state_learn.csv')
         break
