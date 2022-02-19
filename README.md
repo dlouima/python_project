@@ -22,5 +22,6 @@ I create this repository to keep track of all projects and coding activities dur
 - Turtle Street Crossing Game
 - Mail Merger Project
 - US State Guessing Game
+- Nato Alphabet Phonetic
 
 More projects and games will be added as I am progressing in this journey
