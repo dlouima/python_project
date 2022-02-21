@@ -24,5 +24,6 @@ I create this repository to keep track of all projects and coding activities dur
 - US State Guessing Game
 - Nato Alphabet Phonetic
 - Distance converter (Miles to KM)
+- Pomodoro Timer  with python tkinter module
 
 More projects and games will be added as I am progressing in this journey
