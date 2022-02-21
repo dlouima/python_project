@@ -23,5 +23,6 @@ I create this repository to keep track of all projects and coding activities dur
 - Mail Merger Project
 - US State Guessing Game
 - Nato Alphabet Phonetic
+- Distance converter (Miles to KM)
 
 More projects and games will be added as I am progressing in this journey
