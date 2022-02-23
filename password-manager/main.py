@@ -3,6 +3,7 @@ from turtle import width
 from tkinter import messagebox
 from random import choice, randint, shuffle
 import pyperclip
+import json
 
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
@@ -31,16 +32,29 @@ def save():
     email_entry = email_input.get()
     password_entry = password_input.get()
 
+    new_data = {
+        website_entry: {
+            'email': email_entry,
+            'password': password_entry
+        }
+    }
+
     if len(website_entry) == 0 or len(password_entry) == 0:
         messagebox.showinfo(
             title='Ooops', message='Please make you have not left any field empty')
     else:
-        is_ok = messagebox.askokcancel(title=website_entry, message=f'Here are the details entered: \n email: {email_entry}'
-                                       f'\npassword: {password_entry}\n is it ok to save')
-        if is_ok:
-            with open('login.txt', 'a') as file:
-                file.write(
-                    F"websie:  {website_entry}\nEmail:  {email_entry}\nPassword: {password_entry}\n\n")
+        try:
+
+            with open('login.json', 'r') as file:
+                data = json.load(file)
+                data.update(new_data)
+        except:
+            with open('login.json', 'w') as file:
+                json.dump(new_data, file, indent=4)
+
+        else:
+            with open('login.json', 'w') as file:
+                json.dump(data, file, indent=4)
                 website_input.delete(0, END)
                 password_input.delete(0, END)
 
@@ -66,7 +80,7 @@ password = Label(text="Password: ", font=("courier", 12, ))
 password.grid(column=0, row=3)
 
 
-website_input = Entry(width=38)
+website_input = Entry(width=35)
 website_input.grid(column=1, columnspan=2,  row=1)
 website_input.focus()
 
@@ -85,6 +99,9 @@ generate_password.grid(column=2, row=3)
 add_password = Button(text="Add", command=save)
 add_password.grid(column=1, columnspan=2, row=4)
 add_password.config(width=36, )
+
+search = Button(text="Search", command='')
+search.grid(column=2, row=1)
 
 
 windows.mainloop()
