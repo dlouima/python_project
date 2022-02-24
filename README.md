@@ -27,5 +27,5 @@ I create this repository to keep track of all projects and coding activities dur
 - Distance converter (Miles to KM)
 - Pomodoro Timer with python tkinter module
 - Password Manager
-
-More projects and games will be added as I am progressing in this journey
+- Language Learning Flash Cards
+- Weekly Motivation Email
