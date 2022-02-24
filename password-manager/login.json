@@ -2,5 +2,13 @@
     "ssss": {
         "email": "samplemail@gmail.com",
         "password": "L+LeqoIQ69v*"
+    },
+    "google": {
+        "email": "samplemail@gmail.com",
+        "password": "password"
+    },
+    "facebook": {
+        "email": "samplemail@gmail.com",
+        "password": "amYud)5R7R&a6+G#"
     }
 }

@@ -1,5 +1,5 @@
+from email import message
 from tkinter import *
-from turtle import width
 from tkinter import messagebox
 from random import choice, randint, shuffle
 import pyperclip
@@ -23,6 +23,27 @@ def generate_password():
     password = "".join(password_list)
     password_input.insert(0, password)
     pyperclip.copy(password)
+
+# ---------------------------- FIND PASSWORD ------------------------------- #
+
+
+def find_password():
+    search_entry = website_input.get()
+    try:
+        with open('login.json', 'r') as file:
+            data = json.load(file)
+
+    except FileNotFoundError:
+        messagebox.showinfo(title="Error", message=' No data file found')
+    else:
+        if search_entry in data:
+            password = data[search_entry]['password']
+            email = data[search_entry]['email']
+            messagebox.showinfo(
+                title='Here is your password', message=f" Email: {email}\nPassword: {password}")
+        else:
+            messagebox.showinfo(title='OOOPs!', message='Website not found')
+
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 
@@ -80,8 +101,8 @@ password = Label(text="Password: ", font=("courier", 12, ))
 password.grid(column=0, row=3)
 
 
-website_input = Entry(width=35)
-website_input.grid(column=1, columnspan=2,  row=1)
+website_input = Entry(width=21)
+website_input.grid(column=1, columnspan=1,  row=1)
 website_input.focus()
 
 email_input = Entry(width=38)
@@ -100,7 +121,7 @@ add_password = Button(text="Add", command=save)
 add_password.grid(column=1, columnspan=2, row=4)
 add_password.config(width=36, )
 
-search = Button(text="Search", command='')
+search = Button(text="Search", width=13, command=find_password)
 search.grid(column=2, row=1)
 
 
