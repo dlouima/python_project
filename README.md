@@ -18,7 +18,7 @@ I create this repository to keep track of all projects and coding activities dur
 - Turtle race game
 - Classic Snake game
 - Python simple API project
-- Password Generator
+- Strong Password Generator
 - The Pong Game
 - Turtle Street Crossing Game
 - Mail Merger Project
