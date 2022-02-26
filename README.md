@@ -29,3 +29,5 @@ I create this repository to keep track of all projects and coding activities dur
 - Password Manager
 - Language Learning Flash Cards
 - Weekly Motivation Email
+- Email birthday Wisher
+- Space Station Over Your House Email notification
