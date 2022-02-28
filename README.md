@@ -34,3 +34,5 @@ I create this repository to keep track of all projects and coding activities dur
 - Trivia Quiz Brain
 - Habit Tracker App
 - Food Tracker API App
+- Stock Alert app
+- Weather Condition Notification
