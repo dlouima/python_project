@@ -36,3 +36,7 @@ I create this repository to keep track of all projects and coding activities dur
 - Food Tracker API App
 - Stock Alert app
 - Weather Condition Notification
+- Basic Calculator
+- Black Jack Game
+- Blind Auction
+- Caesar Cipher
