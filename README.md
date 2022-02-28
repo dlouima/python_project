@@ -31,3 +31,6 @@ I create this repository to keep track of all projects and coding activities dur
 - Weekly Motivation Email
 - Email birthday Wisher
 - Space Station Over Your House Email notification
+- Trivia Quiz Brain
+- Habit Tracker App
+- Food Tracker API App
