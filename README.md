@@ -40,3 +40,9 @@ I create this repository to keep track of all projects and coding activities dur
 - Black Jack Game
 - Blind Auction
 - Caesar Cipher
+- Simple Calculator
+- Web Scraping for the 100 best movies of all time
+- Linkedin Job Application bot
+- Amazon Price Alert
+- Flight Deal Notification
+- Python Music Time Machine
