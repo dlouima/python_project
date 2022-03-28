@@ -46,3 +46,4 @@ I create this repository to keep track of all projects and coding activities dur
 - Amazon Price Alert
 - Flight Deal Notification
 - Python Music Time Machine
+- Movies Rating web Application
