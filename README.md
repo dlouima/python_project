@@ -50,3 +50,5 @@ I create this repository to keep track of all projects and coding activities dur
 - Best Cafe API
 - Restful Blog Sample Project
 - Flask Authentication
+- Morse Code Decoder
+- Movie Rental Application using Django
