@@ -1,5 +1,5 @@
 import random
-from config import API_KEY
+#from config import API_KEY
 from flask import Flask, jsonify, render_template, request
 from flask_sqlalchemy import SQLAlchemy
 
@@ -10,6 +10,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///cafes.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
+API_KEY= 2554266688
 
 ##Cafe TABLE Configuration
 class Cafe(db.Model):
